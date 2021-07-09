@@ -1,0 +1,14 @@
+.header{
+    line-height: 1.4;
+
+    .header__title{
+        color:var(--primary-color);
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: center;
+
+    }
+    .header__description{
+        font-size: 2rem;
+    }
+}

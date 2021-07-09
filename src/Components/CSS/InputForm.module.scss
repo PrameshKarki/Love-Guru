@@ -1,0 +1,12 @@
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image__container{
+    display: grid;
+    place-items: center;
+    width: 15rem;
+    height:15rem;
+}

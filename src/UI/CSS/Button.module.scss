@@ -1,0 +1,15 @@
+.btn{
+    border:none;
+    outline:none;
+    background:none;
+    padding:1.5rem 2rem;
+    font-size:2.2rem;
+    color:white;
+    cursor: pointer;
+    background:var(--primary-color);
+
+    &:hover{
+        box-shadow: 0 0.1rem 0.5rem -0.2rem rgba(0,0,0,0.5);
+    }
+
+}

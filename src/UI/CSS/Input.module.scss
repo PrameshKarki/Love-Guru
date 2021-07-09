@@ -1,0 +1,51 @@
+.form__controls {
+  position: relative;
+  font-size: 2rem;
+  padding-top: 2rem;
+  margin: 0.5rem;
+
+  input {
+    border: 0.2rem solid #ddd;
+    outline: none;
+    appearance: none;
+    background: none;
+    padding: 1.2rem;
+    border-radius: 0.3rem;
+    width: 25rem;
+    font-size: 2rem;
+    transition: border-color 0.3s ease;
+    &:valid + .placeholder,
+    &:focus + .placeholder {
+      top: 2rem;
+      font-size: 1.5rem;
+      color: #222;
+      background: #fff;
+    }
+    &:valid,
+    &:focus {
+      border-color: var(--primary-color);
+      transition-delay: 0.1s;
+    }
+  }
+  .placeholder {
+    position: absolute;
+    left: 1.2rem;
+    top: calc(50% + 1rem);
+    transform: translateY(-50%);
+    color: #aaa;
+    padding: 0 0.5rem;
+    transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+
+  }
+  input[type="date"] {
+    color: transparent;
+    &:valid,
+    &:focus {
+      color: #333;
+    }
+  }
+}
+
+.form-control{
+    
+}

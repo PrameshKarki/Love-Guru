@@ -1,0 +1,56 @@
+.form__controls {
+  position: relative;
+  font-size: 2rem;
+  padding-top: 2rem;
+  margin: 0.5rem;
+}
+
+.form__controls input {
+  border: 0.2rem solid #ddd;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: none;
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+  width: 25rem;
+  font-size: 2rem;
+  -webkit-transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease;
+}
+
+.form__controls input:valid + .placeholder,
+.form__controls input:focus + .placeholder {
+  top: 2rem;
+  font-size: 1.5rem;
+  color: #222;
+  background: #fff;
+}
+
+.form__controls input:valid, .form__controls input:focus {
+  border-color: var(--primary-color);
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.form__controls .placeholder {
+  position: absolute;
+  left: 1.2rem;
+  top: calc(50% + 1rem);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #aaa;
+  padding: 0 0.5rem;
+  -webkit-transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+  transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.form__controls input[type="date"] {
+  color: transparent;
+}
+
+.form__controls input[type="date"]:valid, .form__controls input[type="date"]:focus {
+  color: #333;
+}
+/*# sourceMappingURL=Input.module.css.map */

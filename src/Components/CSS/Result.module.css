@@ -1,0 +1,35 @@
+.result__heading {
+  font-size: 3rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.coupleNames__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coupleNames__container .coupleName {
+  font-size: 3rem;
+  color: red;
+}
+
+.coupleNames__container .image__container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 5rem;
+  height: 5rem;
+}
+
+footer p {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=Result.module.css.map */

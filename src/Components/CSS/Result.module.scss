@@ -21,7 +21,17 @@
     }
 }
 footer{
-    p{
+    .note{
         font-size:2rem;
+        b{
+            color:var(--primary-color);
+        }
+    
     }
+}
+.congratulate{
+    font-size: 2.5rem;
+    color:var(--primary-color);
+    font-weight: 600;
+    text-align: center;
 }

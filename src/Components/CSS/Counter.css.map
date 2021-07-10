@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,OAAgB;CACrC;;AACD,AAAA,aAAa,CAAA;EACT,gBAAgB,EAAE,OAAiB;CACtC;;AACD,AAAA,QAAQ,CAAA;EACJ,gBAAgB,EAAE,OAAgB;CACrC",
+    "sources": [
+        "Counter.scss"
+    ],
+    "names": [],
+    "file": "Counter.css"
+}

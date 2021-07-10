@@ -31,6 +31,8 @@ const InputForm=props=>{
             userPartnerName
         }
 
+        props.onFormSubmit(pair);
+
         // *Reset Values
         setUserName("");
         setUserPartnerName("");

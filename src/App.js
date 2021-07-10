@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 
 // *Import Components
 import Card from "./UI/Card";
@@ -9,15 +9,22 @@ import Result from "./Components/Result";
 
 
 const App=()=>{
+ 
+  // *Mange state for conditional rendering
+  const [pair,setPair]=useState();
+
+  const formSubmitHandler=pair=>{
+    setPair(pair);
+  }
   return (
     <>
     <Card>
       <Header/>
-      <InputForm/>
+      <InputForm onFormSubmit={formSubmitHandler}/>
     </Card>
-    <Card>
-      <Result/>
-    </Card>
+    {pair && <Card>
+      <Result pairDetails={pair}/>
+    </Card>}
     </>
   )
 }
